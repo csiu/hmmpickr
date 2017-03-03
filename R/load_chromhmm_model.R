@@ -1,4 +1,4 @@
-#' Load ChromHMM model
+#' Load ChromHMM model file
 #'
 #' @param model_file
 #'          ChromHMM model file.

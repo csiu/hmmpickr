@@ -2,7 +2,7 @@
 % Please edit documentation in R/load_chromhmm_model.R
 \name{load_chromhmm_model}
 \alias{load_chromhmm_model}
-\title{Load ChromHMM model}
+\title{Load ChromHMM model file}
 \usage{
 load_chromhmm_model(model_file, histone_order = NULL)
 }
@@ -26,7 +26,7 @@ Returns a list object.
 }
 }
 \description{
-Load ChromHMM model
+Load ChromHMM model file
 }
 \examples{
 model_file <-
