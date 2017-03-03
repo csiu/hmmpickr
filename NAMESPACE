@@ -2,4 +2,5 @@
 
 export(load_chromhmm_model)
 export(load_chromhmm_overlap_enrichments)
+import(dplyr)
 import(readr)

@@ -27,6 +27,7 @@
 #' load_chromhmm_model(model_file)
 #'
 #' @import readr
+#' @import dplyr
 #' @export
 load_chromhmm_model <- function(model_file, histone_order=NULL){
   ## Load data
