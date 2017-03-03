@@ -4,11 +4,13 @@
 \alias{load_chromhmm_overlap_enrichments}
 \title{Load ChromHMM overlap enrichment file}
 \usage{
-load_chromhmm_overlap_enrichments(enrichment_file)
+load_chromhmm_overlap_enrichments(enrichment_file, ...)
 }
 \arguments{
 \item{enrichment_file}{ChormHMM model_*_emissions.txt file.
 The first column of the TSV should be chromatin state.}
+
+\item{...}{options for readr::read_tsv(...)}
 }
 \description{
 Load ChromHMM overlap enrichment file
