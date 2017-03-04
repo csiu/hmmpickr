@@ -31,10 +31,10 @@ Load ChromHMM model file
 \examples{
 model_file <-
   system.file("extdata", "model_roadmap15.txt",
-              package="hmmpick")
+              package="hmmpickr")
 model_file <-
   system.file("extdata", "model_roadmap18.txt",
-              package="hmmpick")
+              package="hmmpickr")
 
 load_chromhmm_model(model_file)
 

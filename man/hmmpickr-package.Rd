@@ -1,24 +1,24 @@
-\name{hmmpick-package}
-\alias{hmmpick-package}
-\alias{hmmpick}
+\name{hmmpickr-package}
+\alias{hmmpickr-package}
+\alias{hmmpickr}
 \docType{package}
 \title{
-\packageTitle{hmmpick}
+\packageTitle{hmmpickr}
 }
 \description{
-\packageDescription{hmmpick}
+\packageDescription{hmmpickr}
 }
 \details{
 
 The DESCRIPTION file:
-\packageDESCRIPTION{hmmpick}
-\packageIndices{hmmpick}
+\packageDESCRIPTION{hmmpickr}
+\packageIndices{hmmpickr}
 ~~ An overview of how to use the package, including the most important functions ~~
 }
 \author{
-\packageAuthor{hmmpick}
+\packageAuthor{hmmpickr}
 
-Maintainer: \packageMaintainer{hmmpick}
+Maintainer: \packageMaintainer{hmmpickr}
 }
 \references{
 ~~ Literature or other references for background information ~~

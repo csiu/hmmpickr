@@ -24,6 +24,6 @@ Helper to calculate the cost of the different states
 \examples{
 emissions_probs <- rbind(c(1, 0.5), c(1,0))
 scale <- c(.95, .05)
-hmmpick:::hmmpick_cost_states(emissions_probs, scale)
+hmmpickr:::hmmpick_cost_states(emissions_probs, scale)
 }
 

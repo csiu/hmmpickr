@@ -11,7 +11,7 @@
 #' @examples
 #' model_file <-
 #'   system.file("extdata", "model_roadmap18.txt",
-#'               package="hmmpick")
+#'               package="hmmpickr")
 #'
 #' homogeneity_cost(model_file)
 #'
@@ -27,7 +27,7 @@ homogeneity_cost <- function(x, is_model_file=TRUE) {
     tidyr::spread(mark, prob) %>%
     select(-state)
 
-  d_k  <- apply(emissions_probs, 1, hmmpick:::hmmpick_cost_state)
+  d_k  <- apply(emissions_probs, 1, hmmpickr:::hmmpick_cost_state)
   k <- length(d_k)
   sum(d_k^2)/k
 }
