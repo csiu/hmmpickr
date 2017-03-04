@@ -22,4 +22,12 @@ Calculate homogeneity cost
 Calculated by \code{D = sum[k=1 to K]{d_k}^2/K} where
          \code{d_k = sum[h=1 to H]{min(1-E_hk, E_hk)}}.
 }
+\examples{
+model_file <-
+  system.file("extdata", "model_roadmap18.txt",
+              package="hmmpickr")
+
+homogeneity_cost(model_file)
+
+}
 
