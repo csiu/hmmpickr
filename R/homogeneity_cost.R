@@ -1,4 +1,5 @@
 #' Calculate homogeneity cost
+#' @description Calculate the homogeneity cost of a model.
 #' @param x Either the ChromHMM model file or
 #'          emission probabilities loaded from
 #'          \code{load_chromhmm_model(...)$emissions} or
@@ -8,6 +9,8 @@
 #'          FALSE if \code{x} is emission probabilities.
 #' @details Calculated by \code{D = sum[k=1 to K]{d_k}^2/K} where
 #'          \code{d_k = sum[h=1 to H]{min(1-E_hk, E_hk)}}.
+#' @seealso \code{\link{load_chromhmm_model}},
+#'          \code{\link{load_chromhmm_emissions}}
 #' @examples
 #' model_file <-
 #'   system.file("extdata", "model_roadmap18.txt",

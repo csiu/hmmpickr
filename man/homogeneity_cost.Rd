@@ -16,7 +16,7 @@ emission probabilities loaded from
 FALSE if \code{x} is emission probabilities.}
 }
 \description{
-Calculate homogeneity cost
+Calculate the homogeneity cost of a model.
 }
 \details{
 Calculated by \code{D = sum[k=1 to K]{d_k}^2/K} where
@@ -29,5 +29,9 @@ model_file <-
 
 homogeneity_cost(model_file)
 
+}
+\seealso{
+\code{\link{load_chromhmm_model}},
+         \code{\link{load_chromhmm_emissions}}
 }
 
