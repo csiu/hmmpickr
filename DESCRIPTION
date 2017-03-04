@@ -1,11 +1,10 @@
 Package: hmmpickr
 Type: Package
-Title: What the package does (short line)
+Title: Pick a ChromHMM model
 Version: 1.0
 Date: 2017-03-02
-Author: csiu
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Author: Celia Siu
+Description: Select the ChromHMM model that is most well-defined.
 License: MIT
 RoxygenNote: 5.0.1
 Imports: dplyr
