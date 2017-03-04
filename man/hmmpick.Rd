@@ -2,18 +2,21 @@
 % Please edit documentation in R/hmmpick.R
 \name{hmmpick}
 \alias{hmmpick}
-\title{Given a list of model files, chooses the best model}
+\title{Pick the ChromHMM model that is most well-defined}
 \format{Returns a list sorted by ascending homogeneity cost.
-        The models are used as element names, and the
-        homogeneity cost are used as element values.}
+        The models in \code{model_files} are used as the element names, and
+        the model homogeneity cost are used as the element values.}
 \usage{
-hmmpick(model_files)
+hmmpick(model_files, full_path = FALSE)
 }
 \arguments{
-\item{model_files}{List of ChromHMM model files to choose from}
+\item{model_files}{A list of ChromHMM models}
+
+\item{full_path}{Boolean; TRUE to return the full model path in the output,
+or FALSE to return only the model basename.}
 }
 \description{
-Given a list of model files, chooses the best model
+Pick the ChromHMM model that is most well-defined
 }
 \examples{
 model_files <- c(
