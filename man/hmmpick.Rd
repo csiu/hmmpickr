@@ -15,10 +15,6 @@ hmmpick(model_files)
 \description{
 Given a list of model files, chooses the best model
 }
-\details{
-See \code{?homogeneity_cost} for the calculation of the
-         homogeneity cost.
-}
 \examples{
 model_files <- c(
   system.file("extdata", "model_roadmap15.txt",
@@ -27,5 +23,9 @@ model_files <- c(
               package="hmmpickr")
 )
 hmmpick(model_files)
+}
+\seealso{
+\code{\link{homogeneity_cost}} for the calculation of the
+         homogeneity cost.
 }
 

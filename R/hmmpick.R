@@ -3,7 +3,7 @@
 #' @format Returns a list sorted by ascending homogeneity cost.
 #'         The models are used as element names, and the
 #'         homogeneity cost are used as element values.
-#' @details See \code{?homogeneity_cost} for the calculation of the
+#' @seealso \code{\link{homogeneity_cost}} for the calculation of the
 #'          homogeneity cost.
 #' @examples
 #' model_files <- c(
