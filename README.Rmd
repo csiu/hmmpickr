@@ -19,8 +19,8 @@ ChromHMM (Ernst & Kellis, 2012), an implementation of a hidden Markov model
 observed (or output) states and unobserved (or hidden) states to represent 
 chromatin states. Due to the nature of hidden states, the number of states will
 need to be specified programmatically and oftentimes numerous candidate models 
-are generated. The goal of hmmpickr is to help pick the model whose states are
-the most well-defined.
+are generated. The goal of hmmpickr is to quantitatively help pick the model 
+whose states are the most well-defined.
 
 ## Installation
 
