@@ -19,6 +19,7 @@
 #' homogeneity_cost(model_file)
 #'
 #' @export
+#' @import tidyr
 homogeneity_cost <- function(x, is_model_file=TRUE) {
   if (is_model_file) {
     emissions <- load_chromhmm_model(x)$emissions

@@ -4,7 +4,13 @@ Title: Pick a ChromHMM model
 Version: 1.0
 Date: 2017-03-02
 Author: Celia Siu
+Maintainer: Celia Siu <csiu@bcgsc.ca>
 Description: Select the ChromHMM model that is most well-defined.
 License: MIT
 RoxygenNote: 5.0.1
-Imports: dplyr
+Imports:
+  dplyr,
+  readr,
+  tidyr
+Suggests:
+    testthat
