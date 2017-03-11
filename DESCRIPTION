@@ -13,4 +13,4 @@ Imports:
   readr,
   tidyr
 Suggests:
-    testthat
+  testthat
