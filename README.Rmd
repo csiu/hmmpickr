@@ -49,4 +49,5 @@ Therefore, the model in the first position is the model whose states are the
 most well-defined.
 
 
-
+## Acknowledgement
+- Model files are downloaded from (Roadmap Epigenomics Consortium, et al., 2015)
