@@ -1,4 +1,6 @@
 
+[![DOI](https://zenodo.org/badge/83733732.svg)](https://zenodo.org/badge/latestdoi/83733732)
+
 hmmpickr
 ========
 
